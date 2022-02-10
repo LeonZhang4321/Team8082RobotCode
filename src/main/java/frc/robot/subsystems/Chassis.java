@@ -120,7 +120,7 @@ diffDrive.setExpiration(0.1);
 diffDrive.setMaxOutput(0.8);
 
 
-chassis_LimitSwitch = new DigitalInput(1);
+chassis_LimitSwitch = new DigitalInput(0);
  addChild("chassis_LimitSwitch", chassis_LimitSwitch);
  
 

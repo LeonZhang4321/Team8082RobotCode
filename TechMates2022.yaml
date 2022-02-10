@@ -185,7 +185,7 @@ Children:
           default: '0'
           name: Input Channel (Digital)
           validators: [DigitalChannel]
-          value: '1'
+          value: '0'
       Base: Limit Switch
       Name: chassis_LimitSwitch
     - Children: []
