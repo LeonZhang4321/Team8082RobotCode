@@ -665,4 +665,4 @@ Properties:
   Autonomous Command: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
     name: Autonomous Command, type: Command, validators: null, value: AutonomousCmd}
 Base: Robot
-Name: TechMates8082NJ_2022
+Name: TechMates2022NJ
