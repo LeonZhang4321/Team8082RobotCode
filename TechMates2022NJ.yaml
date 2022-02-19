@@ -237,7 +237,7 @@ Children:
           default: '2'
           name: CAN ID
           validators: &id011 [CANID]
-          value: '11'
+          value: '7'
       Base: Talon SRX
       Name: intakeMotor
     Properties:
@@ -265,7 +265,7 @@ Children:
           default: '2'
           name: CAN ID
           validators: *id011
-          value: '31'
+          value: '9'
       Base: Talon SRX
       Name: climbArm
     Properties:
@@ -293,7 +293,7 @@ Children:
           default: '2'
           name: CAN ID
           validators: *id011
-          value: '21'
+          value: '8'
       Base: Talon SRX
       Name: conveyMotor
     Properties:

@@ -36,7 +36,8 @@ public class Constants {
     // public static final double POTENIOMETER_RANGE = 0;
     // public static final double POTENIOMETER_OFFSET = 0;
     
-    public static final double AUTO_TIME=20.0;
+    public static final double AUTO_TIME=15;
+    public static final double AUTO_CONEYOR_TIME=5;
 
     public static final class ChassisConst{
         // public static final int LEFT_FRONT_PORT = 1;
