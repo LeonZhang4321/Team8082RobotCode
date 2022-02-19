@@ -410,6 +410,14 @@ rightCANCoder = new CANCoder(6);
 
     }
 
+    public void moveBackward(boolean isMoving) {
+        
+     
+        if (isMoving==true) ArcadeDrive(-0.3, 0, false);
+        else if (isMoving==false) stop();
+        
+    }
+
 
   
 }
