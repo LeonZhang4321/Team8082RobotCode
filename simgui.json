@@ -38,9 +38,14 @@
       "/FMSInfo": "FMSInfo",
       "/LiveWindow/Chassis/DiffDrive": "DifferentialDrive",
       "/LiveWindow/Chassis/chassis_LimitSwitch": "Digital Input",
+      "/LiveWindow/Chassis/my DiffDrive": "DifferentialDrive",
       "/LiveWindow/Climber": "Subsystem",
+      "/LiveWindow/Conveyor": "Subsystem",
       "/LiveWindow/Intake": "Subsystem",
       "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Ungrouped/Talon SRX [8]": "Motor Controller",
+      "/LiveWindow/Ungrouped/myBelt": "Motor Controller",
+      "/LiveWindow/Ungrouped/myinTake(+) or outTake(-) Motor": "Motor Controller",
       "/LiveWindow/Wrist": "Subsystem",
       "/SmartDashboard/Auto Mode": "String Chooser",
       "/SmartDashboard/AutonomousCmd": "Command",
@@ -50,11 +55,21 @@
       "/SmartDashboard/Chassis": "Subsystem",
       "/SmartDashboard/ClimbCmd": "Command",
       "/SmartDashboard/Climber": "Subsystem",
+      "/SmartDashboard/ConveyBallCmd": "Command",
+      "/SmartDashboard/Conveyor": "Subsystem",
       "/SmartDashboard/DriveCmd": "Command",
       "/SmartDashboard/Intake": "Subsystem",
+      "/SmartDashboard/IntakeBallCmd": "Command",
       "/SmartDashboard/IntakeCmd": "Command",
       "/SmartDashboard/OutakeCmd": "Command",
-      "/SmartDashboard/PivotCmd": "Command"
+      "/SmartDashboard/PivotCmd": "Command",
+      "/SmartDashboard/StopConveyCmd": "Command",
+      "/SmartDashboard/StopIntakeCmd": "Command",
+      "/SmartDashboard/TeleDriveCmd": "Command",
+      "/SmartDashboard/buttonA": "Command",
+      "/SmartDashboard/buttonB": "Command",
+      "/SmartDashboard/buttonX": "Command",
+      "/SmartDashboard/buttonY": "Command"
     }
   }
 }

@@ -64,7 +64,8 @@ intakeMotor_Follower = new WPI_TalonSRX(8);
     @Override
     public void periodic() {
         // This method will be called once per scheduler run
-        SendableRegistry.add(intakeMotor, "myinTake(+) or outTake(-) Motor");
+        SendableRegistry.add(intakeMotor, "inTake motor 7");
+        SendableRegistry.add(intakeMotor_Follower, "inTake motor 8");
     }
 
     @Override

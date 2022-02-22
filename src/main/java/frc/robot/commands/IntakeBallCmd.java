@@ -59,7 +59,7 @@ public class IntakeBallCmd extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        m_intake.setIntakeMotor(IntakeConst.INTAKE_STRENGTH); //positive is intake
+        m_intake.setIntakeMotor(IntakeConst.INTAKE_STRENGTH); 
         System.out.println("IntakeBall Cmd Executing!");
     }
 
@@ -67,8 +67,7 @@ public class IntakeBallCmd extends CommandBase {
     @Override
     public void end(boolean interrupted) {
         m_intake.stop();
-        System.out.println(isFinished());
-        System.out.println("\n");
+       
         System.out.println("IntakeBall Cmd ended!");
         
     }
