@@ -49,7 +49,8 @@ public class StopIntakeCmd extends CommandBase {
     // Called when the command is initially scheduled.
     @Override
     public void initialize() {
-        m_intake.stop();
+        //m_intake.stop();
+        m_intake.reset();
         System.out.println("Stop Intake Cmd Initializing!");
         
     }
@@ -57,7 +58,7 @@ public class StopIntakeCmd extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-         m_intake.stop();
+        m_intake.reset();
          System.out.println("Stop Intake Cmd Executing!");
     }
 

@@ -90,11 +90,14 @@ public class AutonomousCmd extends CommandBase {
             RobotContainer.getInstance().m_conveyor.setConveyMotor(ConveyorConst.CONVEY_STRENGTH);   
        else if (m_timer.get() > Constants.AUTO_CONEYOR_TIME && m_timer.get()<=Constants.AUTO_TIME) 
             {
-                RobotContainer.getInstance().m_conveyor.stop();   
+                RobotContainer.getInstance().m_conveyor.reset();   
                 m_chassis.moveBackward(true);            
             }
        else 
+           {
             m_chassis.moveBackward(false);
+            RobotContainer.getInstance().m_conveyor.reset();
+           }
            
 
     }
