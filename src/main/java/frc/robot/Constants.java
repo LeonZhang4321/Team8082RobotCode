@@ -62,11 +62,11 @@ public class Constants {
     }
 
     public static final class IntakeConst{
-        public static final double INTAKE_STRENGTH = 0.7;        
+        public static final double INTAKE_STRENGTH = 0.6;        
     }
 
     public static final class ConveyorConst{
-        public static final double CONVEY_STRENGTH = 1.0;        
+        public static final double CONVEY_STRENGTH = -1.0;        
     }
 
 

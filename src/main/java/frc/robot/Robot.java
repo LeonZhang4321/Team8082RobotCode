@@ -34,7 +34,7 @@ public class Robot extends TimedRobot {
 
     private RobotContainer m_robotContainer;
 
-    private Command m_driveCmd; //kz added
+    //private Command m_driveCmd; //kz added
        
     /**
      * This function is run when the robot is first started up and should be

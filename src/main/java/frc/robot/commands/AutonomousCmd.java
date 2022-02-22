@@ -69,7 +69,7 @@ public class AutonomousCmd extends CommandBase {
         // outakeON=false;       
         // phase=1; 
 
-        m_chassis.encoderReset();  
+        //m_chassis.encoderReset();  
         //RobotContainer.getInstance().m_intake.setIntakeMotor(0.0);
         System.out.println("AutonomousDrive Initializing!");
     }
