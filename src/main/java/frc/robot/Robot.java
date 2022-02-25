@@ -108,7 +108,7 @@ public class Robot extends TimedRobot {
             m_autonomousCommand.cancel();
         }
 
-        m_robotContainer.m_chassis.getDefaultCommand().schedule(); // KZ 2022-02-22 added, and it should get TeleDriveCmd and Schedule it
+        //m_robotContainer.m_chassis.getDefaultCommand().schedule(); // KZ 2022-02-22 added, and it should get TeleDriveCmd and Schedule it
 
         // KZ 2022-01-16 added, but jan-30 removed
       

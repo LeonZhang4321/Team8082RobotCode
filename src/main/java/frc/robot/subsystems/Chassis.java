@@ -401,6 +401,12 @@ leftCANCoder = new CANCoder(5);
         
     }
 
+    public void setMotors(double leftSpeed, double rightSpeed) {
+        leftMotorGroup.set(leftSpeed);
+        rightMotorGroup.set(-rightSpeed);
+
+    }
+
 
   
 }
